@@ -1,0 +1,1 @@
+$(function(){$(".owl-bg-carousel").owlCarousel({autoPlay:1e4,paginationSpeed:1e3,singleItem:!0,navigation:!0,navigationText:["<i class='icon-Arrow-OutLeft'></i>","<i class='icon-Arrow-OutRight'></i>"]})});

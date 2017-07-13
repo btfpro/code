@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <title>Capital Info Group Inc</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Main.css" />
+    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css/ie.css">
+    <![endif]-->
+    <!--[if lte IE 7]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script><![endif]-->
+    <!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
+<script type="text/javascript" src="analytics.js"></script>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="Scripts/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="Scripts/MenuScripts/hoverIntent.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var RecaptchaOptions = {
+            theme: 'custom',
+            custom_theme_widget: 'recaptcha_widget'
+        };
+    </script>
+    <style type="text/css">
+        DIV#slideshowproboxwrapper
+        {
+            overflow: hidden;
+            margin: 0px auto;
+            background-color: #fff;
+        }
+        .slideshowprobox ul li
+        {
+            list-style: none;
+            display: block;
+        }
+        .slideshowprobox li img
+        {
+            margin-right: 2px;
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body id="index" class="home">
+    <header>
+  <hgroup>
+    <h1><a href="default.aspx">Capital Info Group</a></h1>
+    <h2><span style="color:#c71d22">Capital Info Group</span> Inc</h2>
+    <div class="clear"></div>
+    <h6>Passion, Innovation & Service</h6>
+    <div class="login-box">
+      <div class="float-left"><img src="Images/login-curve.png" alt="login curve"> </div>
+      <div class="login-bg float-left"><a href="Login.aspx">Sign In</a> | <a href="Register.aspx">Register</a></div>
+      <div class="float-left"><img src="Images/login-curve-rgt.png" alt="login curve"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="top-links"><a href="default.aspx">Home</a>|<a href="Clients.aspx">Clients</a>|<a href="ContactUs.aspx">Contact Us</a></div>
+  </hgroup>
+  <nav>
+    <div id="page-wrap">
+      <div class="mainmenu-curve float-left"><img src="Images/menu-curve.png" alt="menu curve" width="60" height="33"></div>
+      <div class="float-left">
+        <ul class="dropdown">
+          <li><a href="AboutUs.aspx">About Us</a>
+          <ul class="sub_menu">
+ 				<li><a href="AboutUs-profile.aspx">Profile</a></li>
+          		<li><a href="AboutUs-values.aspx">Values</a></li>
+            </ul>
+          </li>
+          <li><a href="Services.aspx">Services</a>
+            <ul class="sub_menu">
+              <li><a href="Services-Staffing.aspx">Staffing</a></li>
+              <li><a href="Services-ITConsulting.aspx">IT  Consulting</a></li>
+              <li><a href="Services-ApplicationSer.aspx">Application Services</a></li>
+              <li><a href="Services-TestingSer.aspx">Testing Services</a></li>
+              <li><a href="Services-InformationMgt.aspx">Information Mgt</a></li>
+            </ul>
+          </li>
+          <li><a href="Technology.aspx">Technologies</a>
+            <ul class="sub_menu">
+              <li> <li><a href="Technology-Java.aspx">JAVA</a></li> 
+          <li><a href="Technology-SOA.aspx">SOA</a></li>
+          <li><a href="Technology-Web2.aspx">Web 2.0</a></li>
+          <li><a href="Technology-Integration.aspx">Integration & Testing</a></li>
+          <li><a href="Technology-Cloud.aspx">Cloud & SAAS</a></li>
+            </ul>
+          </li>
+           <li><a href="Products.aspx">Products</a></li> <li><a href="Careers.aspx" class="last">careers</a>
+            <ul class="sub_menu last">
+              <li><a href="Careers-JobListings.aspx">Job Listings</a></li>
+      <li><a href="Careers-CurrentHirings.aspx">Currently Hiring</a></li>
+            </ul>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </nav>
+</header>
+    
+    <div id="page-header">
+  <div class="lft-curve"></div>
+  <div class="mid">
+    <h1>Contact Us</h1>
+  </div>
+  <div class="rgt-curve "></div>
+  <div class="clear"></div>
+</div>
+<section id="inner-main-content">
+  <section id="inner-content2">
+    <form action="home.aspx" method="post" id="adminForm_1" name="adminForm_1" enctype="multipart/form-data">
+      <div class="formlayout">
+        <label style="margin-left:10px;">&nbsp</label>
+        <p>Fields marked as ' <span style="color:red">*</span> ' are mandatory</p>
+        <label>Name<span class="small">Add your name</span></label>
+        <input name="aics_name" id="aics_name" value="" type="text" />
+        <span class="asterisk">*</span>
+        <label>Email<span class="small">Add a valid address</span></label>
+        <input name="aics_email" id="aics_email" value="" type="text" />
+        <span class="asterisk">*</span>
+        <label>Phone<span class="small">Add a valid phone number</span></label>
+        <input name="aics_phone" id="aics_phone" maxlength="15" value="" type="text" />
+        <label>Subject<span class="small">Mention a suitable subject</span></label>
+        <input name="aics_subject" id="aics_subject" value="" type="text" />
+        <span class="asterisk">*</span>
+        <label>Message<span class="small">Why you want to contact us</span></label>
+        <textarea name="aics_message" id="aics_message" rows="6" cols="36" value=""></textarea>
+        <span class="asterisk">*</span>
+        <div class="clear"></div>
+        <!----------------Captcha--------------------->
+        <div id="captchawraper">
+          <div class="float-left" style="width:212px">&nbsp;</div>
+          <div id="div_captcha" class="float-left">
+            <input name="aics_send_to_sender" id="aics_send_to_sender" type="checkbox" />
+            <span>Send a copy of this message to yourself</span></br>
+            </br>
+            <div id="recaptcha_widget" style="display: none">
+              <div id="recaptcha_image"> </div>
+              <div class="recaptcha_only_if_incorrect_sol" style="color: red"> Incorrect please try again</div>
+              <span class="recaptcha_only_if_image">Enter the words above:</span> <span class="recaptcha_only_if_audio"> Enter the numbers you hear:</span>
+              <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" />
+              <div> <a href="javascript:Recaptcha.reload()"><img src="Images/refresh.png"  alt="Get another CAPTCHA" /></a> - Get another CAPTCHA</div>
+              <div class="recaptcha_only_if_image"> <a href="javascript:Recaptcha.switch_type('audio')"><img src="Images/audio.png"  alt="Get an audio CAPTCHA" /></a>  - Get an audio CAPTCHA</div>
+              <div class="recaptcha_only_if_audio"> <a href="javascript:Recaptcha.switch_type('image')"><img src="Images/text.png"  alt="Get an image CAPTCHA" /></a>  - Get an image CAPTCHA</div>
+              <div> <a href="javascript:Recaptcha.showhelp()"><img src="Images/help.png"  alt="Help" /></a>  - Get HELP</div>
+            </div>
+            <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LeEOsoSAAAAALTKvUpMQMONdBOwG1UVXiFon96F">
+    </script>
+            <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+            <noscript>
+            <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeEOsoSAAAAALTKvUpMQMONdBOwG1UVXiFon96F" height="300"
+        width="300" frameborder="0"></iframe>
+            </br>
+            <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+            <input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+            </noscript>
+          </div>
+        </div>
+        <!---------------- End Captcha--------------------->
+        <div class="clear"></div>
+        <div id="aiContactSafeBtns">
+          <div id="aiContactSafeButtons_center" >
+            <div id="aiContactSafeSend_loading_1">&nbsp;</div>
+            <div id="td_aiContactSafeSendButton">
+              <input type="submit" id="aiContactSafeSendButton" value="Send" />
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <input type="hidden" id="option" name="option" value="com_aicontactsafe" />
+        <input type="hidden" id="sTask" name="sTask" value="message" />
+        <input type="hidden" id="task" name="task" value="display" />
+        <input type="hidden" id="send_mail" name="send_mail" value="1" />
+        <input type="hidden" id="pf" name="pf" value="1" />
+        <input type="hidden" id="return_to" name="return_to" value="" />
+        <input type="hidden" id="current_url" name="current_url" value="http://www.capitalinfogroup.com/contact-us" />
+        <input type="hidden" id="Itemid" name="Itemid" value="58" />
+        <input type="hidden" id="lang" name="lang" value="en" />
+        <input type="hidden" id="back_button" name="back_button" value="0" />
+        <input type="hidden" id="boxchecked" name="boxchecked" value="0" />
+        <input type="hidden" id="use_ajax" name="use_ajax" value="0" />
+        <input type="hidden" id="r_id" name="r_id" value="585963240" />
+        <input type="hidden" name="9c1a1a6a983d11e232f9f4940b3097b4" value="1" />
+      </div>
+    </form>
+    <div id="side-bar2">
+      <h2>Our Email ID's</h2>
+      <div class="emailids">
+        <label><span><strong>Sales Information:</span></strong><a href="mailto:accounts@capitalinfogroup.com">accounts@capitalinfogroup.com</a></label>
+        </br>
+        <label><span style="width:200px"><strong>Employment Information:</span></strong><a  href="mailto:info@capitalinfogroup.com">info@capitalinfogroup.com</a></label>
+        </br>
+        <label><span style="width:200px"><strong> Support Information:</span></strong><a  href="mailto:info@capitalinfogroup.com">info@capitalinfogroup.com</a></label>
+      </div>
+    </div>
+  </section>
+  <aside class="float-right">
+    <div id="side-bar">
+      <h2>Our Locations</h2>
+      <address>
+      <strong>USA </strong></br>
+      </br>
+      
+      
+      Capital Info Group Inc.,</br>
+      1400 Corporate dr,</br>
+      Suite 140,</br>
+      Irving, Tx 75038</br>
+      Tel :1(989)528-9143</br>
+      Fax: 1(248)234-6495</br>
+      </address>
+
+
+      <address>
+     
+        </br>
+        
+        42400 Grand River Ave,</br>
+        Suite 108,</br>
+        Novi, MI 48375</br>
+        Tel :1(248)234-6085</br>
+        Fax: 1(248)234-6495</br>
+      </address>
+
+
+      <!--<address>
+      <strong>UK</strong> </br>
+      </br>
+      First Floor,</br>
+      Dephna House,</br>
+      119, Neasden Lane,</br>
+      Neasden. NW101PH.</br>
+      </address>
+      <address>
+      <strong>INDIA</strong> </br>
+      </br>
+      1-2-56/60,</br>
+      First Floor,</br>
+      Street No -14 Advocate Colony,</br>
+      Gagan Mahal Hyderabad.</br>
+      </br>
+      Tel: +91-40-65153735</br>
+      </address> -->
+    </div>
+    <div class="clear"></div>
+  </aside>
+  <div class="clear"></div>
+</section>
+
+    <footer id="footer">
+  <div id="footer-wrapper">
+    <div class="footer-mast">
+      <div class="copyrights float-left"> &copy <script>document.write(new Date().getFullYear())</script> Capital Info Group Inc. All Rights Reserved.</div>
+      <div class="float-right">
+        <div class="curve float-left"></div>
+        <div class="footer-menu float-left"><a href="default.aspx">Home</a> | <a href="Products.aspx">Products</a> | <a href="Events.aspx">Events</a> | <a href="News.aspx">News</a> | <a href="ContactUs.aspx">Contact Us</a></div>
+        <div class="curve-rgt float-left"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <section id="sections-wrapper">
+      <section class="footer-sec">
+        <h5>About Us</h5>
+        <ul>
+           <li><a href="AboutUs-profile.aspx">Profile</a></li>
+          <li><a href="AboutUs-values.aspx">Values</a></li>
+        </ul>
+      </section>
+      <section class="footer-sec">
+        <h5>services</h5>
+        <ul>
+          <li><a href="Services-Staffing.aspx">Staffing</a></li>
+              <li><a href="Services-ITConsulting.aspx">IT  Consulting</a></li>
+              <li><a href="Services-ApplicationSer.aspx">Application Services</a></li>
+              <li><a href="Services-TestingSer.aspx">Testing Services</a></li>
+              <li><a href="Services-InformationMgt.aspx">Information Mgt</a></li>
+        </ul>
+      </section>
+      <section class="footer-sec">
+        <h5>technology</h5>
+        <ul>
+          <li><a href="Technology-Java.aspx">JAVA</a></li> 
+          <li><a href="Technology-SOA.aspx">SOA</a></li>
+          <li><a href="Technology-Web2.aspx">Web 2.0</a></li>
+          <li><a href="Technology-Integration.aspx">Integration & Testing</a></li>
+          <li><a href="Technology-Cloud.aspx">Cloud & SAAS</a></li>
+        </ul>
+      </section>
+      <section class="footer-sec">
+        <h5>careers</h5>
+        <ul>
+          <li><a href="Careers-JobListings.aspx">Job Listings</a></li>
+      <li><a href="Careers-CurrentHirings.aspx">Currently Hiring</a></li>
+        </ul>
+      </section>
+      <section class="footer-sec-last social-net">
+        <h5>Follow Us...</h5>
+        <ul>
+          <li><a href="#"><img src="Images/fb-icon.png" alt="Facebook icon" width="32" height="32" title="Follow us on Facebook"></a></li>
+          <li><a href="#"><img src="Images/email-icon.png" alt="Email icon" width="32" height="32" title="Email Us"></a></li>
+          <li><a href="#"><img src="Images/tweeter-icon.png" alt="Twitter icon" width="32" height="32" title="Follow us on Twitter"></a></li>
+        </ul>
+      </section>
+      <div class="clear"></div>
+    </section>
+  </div>
+</footer>
+</body>
+<script src="Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+<script src="Scripts/jcarousellite_1.0.1c4.js" type="text/javascript"></script>
+<script src="Scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="Scripts/jquery.easing.compatibility.js" type="text/javascript"></script>
+<script type="text/javascript">    jQuery.noConflict();</script>
+<script src="Scripts/slides.min.jquery.js" type="text/javascript"></script>
+<script src="Scripts/MenuScripts/hoverIntent.js" type="text/javascript"></script>
+</html>
