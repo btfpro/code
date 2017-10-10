@@ -1,0 +1,8 @@
+{
+  "name": "Start on Heroku: Node.js",
+  "description": "Node.js app using Express 4",
+  "repository": "https://git.heroku.com/btfpro",
+  "logo": "https://btfpro.herokuapp.com/images/logo.jpeg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
